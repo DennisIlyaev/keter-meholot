@@ -1,0 +1,91 @@
+* {
+	direction: rtl;
+	text-align: center;
+}
+
+body {
+	display: flex;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	height: 700px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 10%;
+	align-items: center;
+	justify-content: center;
+}
+
+#mainHeader h1 {
+	font-size: 25pt;
+	text-decoration: underline;
+}
+
+table {
+	width: 99%;
+	height: 95%;
+	border-collapse: collapse;
+	display: flex;
+	margin: 0 auto;
+}
+
+table tr {
+	display: flex;
+	width: 1353px;
+}
+
+table, tr, td, th {
+	overflow: hidden;
+}
+
+table tr th {
+	flex: 1;
+	font-size: 20pt;
+}
+
+table tr th:nth-child(1) {
+	flex: 0.4;
+}
+
+table tr td {
+	flex: 1;
+	font-size: 18pt;
+}
+
+table tr {
+	display: flex;
+}
+
+table, th, tr, td {
+	border: 1px solid black;
+
+}
+
+
+table tr td:nth-child(1) {
+	flex: 0.4;
+}
+
+
+table tr td:nth-child(5), table tr td:nth-child(6) {
+	flex: 2;
+}
+
+table tr th:nth-child(5), table tr th:nth-child(6) {
+	flex: 2;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+
+
