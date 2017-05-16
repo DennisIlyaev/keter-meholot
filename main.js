@@ -4,7 +4,7 @@ $(document).ready(function() {
   if (prompt('אנא הקש סיסמה') === 'keter') {
     $('body').css('display', 'flex');
   } else {
-    return false;
+    $('body').css('display', 'none');
   }
 
 
