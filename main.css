@@ -4,7 +4,7 @@
 }
 
 body {
-	display: flex;
+	display: none;
 }
 
 .wrapper {
@@ -84,6 +84,7 @@ table tr th:nth-child(5), table tr th:nth-child(6) {
 .upper {
     text-transform: uppercase;
 }
+
 
 
 
