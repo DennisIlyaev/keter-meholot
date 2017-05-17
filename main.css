@@ -56,15 +56,26 @@ table tr th:nth-child(1) {
 table tr td {
 	flex: 1;
 	font-size: 18pt;
+
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	line-height: 50px;
+
 }
 
 table tr {
 	display: flex;
+	height: 50px;
+
 }
 
 table, th, tr, td {
 	border: 1px solid black;
-
 }
 
 
